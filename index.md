@@ -1,5 +1,1 @@
-<?php
-
-echo '<?php echo $_SERVER["SERVER_NAME"]; ?>';
-
-?>
+<?php echo file_get_contents('index.php') ?>
